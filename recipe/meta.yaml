@@ -1,5 +1,5 @@
 {% set name = "adam_core" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/adam_core-{{ version }}.tar.gz
-  sha256: e2dfaf2ba7d51cb3e6f7044548825b61743d5fd56b28d503795f471b00136caa
+  sha256: 7a5c4cf01f3b9014821c733db66b4df95cdc144e60f4fcdd8cfd0bc1f49db949
 
 build:
   noarch: python
